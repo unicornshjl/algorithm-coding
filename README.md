@@ -1,3 +1,2 @@
 # algorithm-coding
-Well, it is used to record my algorithm studies.
-It may be not perfect, but I will try my best to improve the repository.
+用来记录本人算法竞赛期间的学习经历
