@@ -1,0 +1,2 @@
+CDQ分治 is a algorithm used to solve 三维偏序 problems
+Building upon the use of BIT to solve 二位偏序 problems, we must use CDQ分治 to extend to the third dimension.
