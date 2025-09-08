@@ -26,7 +26,7 @@ int n, m, rt, cnt, to[maxn], nxt[maxn], head[maxn], dep[maxn], father[maxn], siz
 int tim, dfn[maxn], num[maxn], top[maxn], son[maxn];
 
 void addedge(int u, int v) {
-    to[++cnt] = v; nxt[cnt] = head[u]; head[u] = cnt;
+    到[++cnt] = v; nxt[cnt] = head[u]; head[u] = cnt;
 }
 
 void init(){
