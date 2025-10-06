@@ -1,3 +1,9 @@
+/*
+    链接 : https://www.luogu.com.cn/problem/P10315
+    根据题意列出方程 构造出一组解即可
+*/
+
+
 #include<algorithm>
 #include<bitset>
 #include<climits>
