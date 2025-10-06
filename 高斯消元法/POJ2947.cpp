@@ -55,6 +55,22 @@ constexpr int primes[] = { 2,3,5,7,11,13,17,19,23,29,31,37,41,43 };
 
 int n, m, a[500][500], ans[8], s;
 
+int ksm(int a, int b) {
+    if (b < 0) return 0;
+    int res = 1;
+    while (b) {
+        if (b & 1) res = res * a % mod;
+        a = a * a % mod;
+        b >>= 1;
+    }
+    return res;
+}
+
+int inv(int x) {
+    return ksm(x, mod - 2);
+}
+
+
 map<string, int> mp;
 
 void prework() {
@@ -73,6 +89,7 @@ void prework() {
     ans[5] = 5;
     ans[6] = 6;
 }
+
 
 void Gauss() {
     for (int i = 1; i <= s; i++) {
